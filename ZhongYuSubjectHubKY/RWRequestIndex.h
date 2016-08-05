@@ -9,6 +9,11 @@
 #ifndef RWRequestIndex_h
 #define RWRequestIndex_h
 
+#define APP_ID @"1133372985"
+
+#define APP_STORE_URL @"http://itunes.apple.com/cn/lookup?id="APP_ID
+#define TO_APP_STORE @"itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id="APP_ID
+
 #define UMengCommunityAppkey @"57830ed1e0f55a66f200058c"
 #define UMengCommunityAppSecret @"7d2761723e6be40986ea8166b001dd72"
 

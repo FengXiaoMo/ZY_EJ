@@ -264,6 +264,7 @@
 		12F4461E1D129A1C00511336 /* Lv9.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F446141D129A1C00511336 /* Lv9.png */; };
 		12F446221D12AE4A00511336 /* edit_t.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F446211D12AE4A00511336 /* edit_t.png */; };
 		12F5671E1D07D6E30059E20F /* RWSubjectCatalogueController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F5671D1D07D6E30059E20F /* RWSubjectCatalogueController.m */; };
+		12F691BC1D50988C00541690 /* RWRequsetManager+ExamineVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F691BB1D50988C00541690 /* RWRequsetManager+ExamineVersion.m */; };
 		12F6EB301CD9FA1900CBA632 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12F6EB2F1CD9FA1900CBA632 /* WebKit.framework */; };
 		12F6EB331CD9FA3E00CBA632 /* RWWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F6EB321CD9FA3E00CBA632 /* RWWebViewController.m */; };
 		12F745181D4AF3A100460006 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F744F81D4AF3A100460006 /* MKAnnotationView+WebCache.m */; };
@@ -830,6 +831,8 @@
 		12F5671C1D07D6E30059E20F /* RWSubjectCatalogueController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSubjectCatalogueController.h; sourceTree = "<group>"; };
 		12F5671D1D07D6E30059E20F /* RWSubjectCatalogueController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSubjectCatalogueController.m; sourceTree = "<group>"; };
 		12F5E2911D19160B004A303A /* RWRequestIndex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWRequestIndex.h; sourceTree = "<group>"; };
+		12F691BA1D50988C00541690 /* RWRequsetManager+ExamineVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RWRequsetManager+ExamineVersion.h"; sourceTree = "<group>"; };
+		12F691BB1D50988C00541690 /* RWRequsetManager+ExamineVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RWRequsetManager+ExamineVersion.m"; sourceTree = "<group>"; };
 		12F6EB2F1CD9FA1900CBA632 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		12F6EB311CD9FA3E00CBA632 /* RWWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWWebViewController.h; sourceTree = "<group>"; };
 		12F6EB321CD9FA3E00CBA632 /* RWWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWWebViewController.m; sourceTree = "<group>"; };
@@ -2962,6 +2965,8 @@
 				12FFF1521CCF4056003F58E2 /* RWRequsetManager.m */,
 				12EE61B71CE1737E00ADCC51 /* RWRequsetManager+UserLogin.h */,
 				12EE61B81CE1737E00ADCC51 /* RWRequsetManager+UserLogin.m */,
+				12F691BA1D50988C00541690 /* RWRequsetManager+ExamineVersion.h */,
+				12F691BB1D50988C00541690 /* RWRequsetManager+ExamineVersion.m */,
 				12EE61C11CE1860500ADCC51 /* RWDeployIndex.h */,
 				12EE61BA1CE1762A00ADCC51 /* RWDeployManager.h */,
 				12EE61BB1CE1762A00ADCC51 /* RWDeployManager.m */,
@@ -3741,6 +3746,7 @@
 				12F746E71D4B0FEB00460006 /* UMComShareManager.m in Sources */,
 				1263F5DC1CDB12AD0089EC9F /* RWMoreViewController.m in Sources */,
 				12F5671E1D07D6E30059E20F /* RWSubjectCatalogueController.m in Sources */,
+				12F691BC1D50988C00541690 /* RWRequsetManager+ExamineVersion.m in Sources */,
 				125D99391CD0A06D00871ED4 /* RWSubjects.m in Sources */,
 				12F747111D4B0FEB00460006 /* UMComiToast.m in Sources */,
 				123D2AF81D2A59E900A5C1BF /* RWPassWordBaseViewController.m in Sources */,
